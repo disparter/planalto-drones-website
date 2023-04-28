@@ -1,11 +1,16 @@
-<header>
+<div class="container">
   <nav>
-    <a routerLink="/" routerLinkActive="active">Home</a>
-    <a routerLink="/about" routerLinkActive="active">About</a>
-    <a routerLink="/services" routerLinkActive="active">Services</a>
-    <a routerLink="/contact" routerLinkActive="active">Contact Us</a>
+    <a href="#" class="logo">Planalto Drones</a>
+    <ul class="nav-links">
+      <li><a routerLink="/" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+      <li><a routerLink="/services" routerLinkActive="active">Services</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active">Contact Us</a></li>
+    </ul>
   </nav>
-</header>
-<main>
-  <router-outlet></router-outlet>
-</main>
+
+  <div class="hero-section">
+    <h1>Explore the world from above with Planalto Drones</h1>
+    <p>Our team of professional pilots and cutting-edge drones provide a unique aerial perspective for your projects.</p>
+  </div>
+</div>
